@@ -10,7 +10,7 @@ public class API {
     private final Monedas coin;
 
     public API(String arg1, String arg2, double amount) throws IOException, InterruptedException {
-        String apiBaseUrl = "https://v6.exchangerate-api.com/v6/771cc165b905af3683c4d984/pair/" + arg1 + "/" + arg2 + "/" + amount;
+        String apiBaseUrl = "https://v6.exchangerate-api.com/v6/aeda7bff3e8ed32e374dbbdb/pair/" + arg1 + "/" + arg2 + "/" + amount;
         HttpClient client = HttpClient.newHttpClient();
 
         HttpRequest request = HttpRequest.newBuilder()
